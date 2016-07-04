@@ -56,7 +56,7 @@
         <script src="./controlador/motorjs.js"></script>
           
         <!--  Favicon -->
-        <link rel="shortcut icon" href="../vista/img/logo/logo.png" type="image/png" sizes="any"/>
+        <link rel="shortcut icon" href="./vista/img/logo/logo.png" type="image/png" sizes="any"/>
         
         <!--  Fuentes -->
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>

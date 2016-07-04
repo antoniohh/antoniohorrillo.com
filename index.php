@@ -24,5 +24,5 @@
 /**
  * Redireccionamos a la página control.php, la cual Gestiona la aplicación.
  */
-header('Location: ./control');
+header('Location: ./node');
 ?>

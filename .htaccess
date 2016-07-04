@@ -1,15 +1,15 @@
 RewriteEngine on
 
-# Alias “Clean” URLs
+# Alias Clean URLs
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteRule ^([^.]+)$ $1.php [NC,L]
 
 # Cambiar el index
-    #DirectoryIndex control.php
+    #DirectoryIndex node.php
 
 # Cambiar el document root.
-    #RewriteCond %{HTTP_HOST} ^localhost$ [NC,OR]
-    #RewriteCond %{HTTP_HOST} ^localhost$
+    #RewriteCond %{HTTP_HOST} ^antoniohorrillo.com$ [NC,OR]
+    #RewriteCond %{HTTP_HOST} ^antoniohorrillo.com$
     #RewriteCond %{REQUEST_URI} !controlador/
     #RewriteRule (.*) /controlador/$1 [L]
 
@@ -46,18 +46,18 @@ RewriteEngine on
     #ErrorDocument 403 "Houston, we have a problem. Error 403."
     #ErrorDocument 404 "Houston, we have a problem. Error 404."
     #ErrorDocument 500 "Houston, we have a problem. Error 500."
-    ErrorDocument 400 /controlador/error.php
-    ErrorDocument 401 /controlador/error.php
-    ErrorDocument 403 /controlador/error.php
-    ErrorDocument 404 /controlador/error.php
-    ErrorDocument 405 /controlador/error.php
-    ErrorDocument 408 /controlador/error.php
-    ErrorDocument 414 /controlador/error.php
-    ErrorDocument 500 /controlador/error.php
-    ErrorDocument 502 /controlador/error.php
+    ErrorDocument 400 /error.php
+    ErrorDocument 401 /error.php
+    ErrorDocument 403 /error.php
+    ErrorDocument 404 /error.php
+    ErrorDocument 405 /error.php
+    ErrorDocument 408 /error.php
+    ErrorDocument 414 /error.php
+    ErrorDocument 500 /error.php
+    ErrorDocument 502 /error.php
 
 # Tiempo máximo de ejecución de los scripts PHP y el tamaño máximo de los archivos que se pueden subir:
-    #php_value upload_max_filesize 30M
+    #php_value upload_max_filesize 128M
     #php_value max_execution_time 600
 
 # Mejorar el rendimiento. Comprimir archivos.

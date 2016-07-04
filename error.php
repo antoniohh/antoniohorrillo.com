@@ -23,8 +23,8 @@
 $status = $_SERVER['REDIRECT_STATUS'];
 $codes = array(
     400 => array('400 Bad Request - Solicitud incorrecta', 'Existe un problema con la dirección que has escrito. Puede que no estés autorizado para acceder a la página Web o no exista.'),
-    401 => array('401 Login Error - No autorizado', 'No puedes acceder a Autene porque no has iniciado sesión correctamente. Revisa el nombre de usuario y la contraseña.'),
-    403 => array('403 Forbidden - Prohibido', 'Lo sentimos, no tiene permiso de acceso a este recurso de Autene.'),
+    401 => array('401 Login Error - No autorizado', 'No puedes acceder porque no has iniciado sesión correctamente. Revisa el nombre de usuario y la contraseña.'),
+    403 => array('403 Forbidden - Prohibido', 'Lo sentimos, no tiene permiso de acceso a este recurso.'),
     404 => array('404 Missing - No encontrado', 'La página Web ya no existe en el servidor o no se encuentra. Revisa la dirección cuidadosamente e intenta escribirla de nuevo.'),
     405 => array('405 Method Not Allowed - Método no permitido', 'Una petición fue hecha a una URI utilizando un método de solicitud no soportado por dicha URI.'),
     408 => array('408 Request Timeout - Tiempo de espera agotado', 'El cliente falló al continuar la petición con el servidor.'),
@@ -55,18 +55,18 @@ if ($errortitle == false) {
         <title><?php echo("$errortitle"); ?></title>
 
         <!-- CSS -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <link href="../css/font-awesome.min.css" rel="stylesheet">
-        <link href="../css/animate.css" rel="stylesheet">
-        <link href="../css/style.css" rel="stylesheet">
+        <link href="/vista/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/vista/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/vista/css/animate.css" rel="stylesheet">
+        <link href="/vista/css/estilos.css" rel="stylesheet">
 
         <!-- JavaScript -->
-        <script src="../js/jquery-2.2.0.min.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/jquery.appear.js"></script>
+        <script src="/vista/js/jquery-2.2.0.min.js"></script>
+        <script src="/vista/js/bootstrap.min.js"></script>
+        <script src="/vista/js/jquery.appear.js"></script>  
 
         <!--  Favicon -->
-        <link rel="shortcut icon" href="../img/logo/logo.png" type="image/png" sizes="any"/>
+        <link rel="shortcut icon" href="/vista/img/logo/logo.png" type="image/png" sizes="any"/>
 
         <!--  Fuentes -->
         <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -93,7 +93,7 @@ if ($errortitle == false) {
                 <div class="row">
                     <div class="col-md-4 col-md-offset-4" style="padding-top: 200px">                       
                         <div class="menu-item light-red responsive">
-                            <a href="../index.html" data-toggle="modal">
+                            <a href="/index.php" data-toggle="modal">
                                 <i class="fa fa-exclamation-triangle"></i>
                                 <p>Volver al Inicio</p>
                             </a>
