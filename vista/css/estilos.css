@@ -979,8 +979,8 @@ and (max-width : 991px) {
 }
 
 @media only screen 
-and (min-width : 400px) 
-and (max-width : 991px) {
+and (min-width : 768px) 
+and (max-width : 1366px) {
     
     .social {
         position: initial;

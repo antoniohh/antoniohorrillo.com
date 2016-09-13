@@ -40,9 +40,8 @@
         <li><a href="https://es.pinterest.com/antoniohh76" target="_blank"><i class="fa fa-pinterest-p"></i></a></li>
         <li><a href="https://www.instagram.com/antoniohh76" target="_blank"><i class="fa fa-instagram"></i></a></li>
         <li><a href="https://www.youtube.com/channel/UCD6wDPVAuQuQX0xNGIqq9xA" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-        <li><a href="https://es.linkedin.com/in/antonio-horrillo-horrillo-16989240" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://es.linkedin.com/in/antoniohh" target="_blank"><i class="fa fa-linkedin"></i></a></li>
         <li><a href="https://github.com/antoniohh" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-        <li><a href="mailto:contacto@antoniohorrillo.com"><i class="fa fa-envelope-o"></i></a></li>
     </ul>
 </div>
 <!-- Sección Social -->
@@ -792,7 +791,6 @@
                             <li><a href="https://www.youtube.com/channel/UCD6wDPVAuQuQX0xNGIqq9xA" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                             <li><a href="https://es.linkedin.com/in/antonio-horrillo-horrillo-16989240" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             <li><a href="https://github.com/antoniohh" target="_blank"><i class="fa fa-github-alt"></i></a></li>
-                            <li><a href="mailto:contacto@antoniohorrillo.com"><i class="fa fa-envelope-o"></i></a></li>
                         </ul>
                     </div>
                 </div>
